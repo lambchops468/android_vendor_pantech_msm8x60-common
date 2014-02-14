@@ -31,6 +31,8 @@ PRODUCT_COPY_FILES += \
 
 # All the blobs necessary for adreno
 PRODUCT_COPY_FILES += \
+    $(VENDOR_DEVICE_FOLDER)/system/app/ProfilerPlaybackTools.apk:/system/app/ProfilerPlaybackTools.apk \
+    $(VENDOR_DEVICE_FOLDER)/system/bin/gpu_dcvsd:/system/bin/gpu_dcvsd \
     $(VENDOR_DEVICE_FOLDER)/system/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
     $(VENDOR_DEVICE_FOLDER)/system/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
     $(VENDOR_DEVICE_FOLDER)/system/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
