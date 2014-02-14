@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DEVICE_FOLDER)/system/etc/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
     $(VENDOR_DEVICE_FOLDER)/system/lib/egl/eglsubAndroid.so:/system/lib/egl/eglsubAndroid.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/egl/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    $(VENDOR_DEVICE_FOLDER)/system/lib/egl/libGLES_android.so:/system/lib/egl/libGLES_android.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/egl/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/egl/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/egl/libGLESv2S3D_adreno200.so:/system/lib/egl/libGLESv2S3D_adreno200.so \
