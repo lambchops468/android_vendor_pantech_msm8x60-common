@@ -12,4 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/pantech/qcom-common/qcom-common-vendor-blobs.mk)
+$(call inherit-product, vendor/pantech/msm8x60-common/msm8x60-common-vendor-blobs.mk)

@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_DEVICE_FOLDER := vendor/pantech/qcom-common/proprietary
+VENDOR_DEVICE_FOLDER := vendor/pantech/msm8x60-common/proprietary
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
