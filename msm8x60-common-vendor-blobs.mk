@@ -16,12 +16,10 @@ VENDOR_DEVICE_FOLDER := vendor/pantech/msm8x60-common/proprietary
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    $(VENDOR_DEVICE_FOLDER)/system/lib/libv8.so:obj/lib/libv8.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/libqc-opt.so:obj/lib/libqc-opt.so
 
 # Prebuilt libraries from CodeAurora
 PRODUCT_COPY_FILES += \
-    $(VENDOR_DEVICE_FOLDER)/system/lib/libv8.so:system/lib/libv8.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/libmmosal.so:system/lib/libmmosal.so \
     $(VENDOR_DEVICE_FOLDER)/system/lib/libmmparser.so:system/lib/libmmparser.so \
